@@ -1,127 +1,100 @@
 {
   "currencyList": [
-    { "value": "AUS", "label": "Australia (AUS $)" },
-    { "value": "CAD", "label": "Canada (CAD $)" },
-    { "value": "USD", "label": "United States (US $)" },
-    { "value": "EUR", "label": "Germany (EUR €)" },
-    { "value": "HKD", "label": "Hong Kong (HKD $)" }
+    { "value": "USD", "label": "United States (US $)" }
   ],
   "languageList": [
-    { "value": "english", "label": "English" },
-    { "value": "german", "label": "Deutsch" },
-    { "value": "mandarin", "label": "普通话" }
+    { "value": "english", "label": "English" }
   ],
   "social": {
-    "facebook": "https://www.facebook.com/MatterDesign/",
-    "instagram": "https://www.instagram.com/p/CVwMlChIWmW",
-    "twitter": "https://twitter.com/hellomatter",
-    "youtube": "https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg"
+    "linkedin": "https://www.linkedin.com/in/nadiasrana/",
+    "github": "https://github.com/nadiasrana",
+    "email": "mailto:nadia@nadiasrana.com"
   },
   "paymentOptions": {
-    "visa": true,
-    "mastercard": true,
-    "amex": true
+    "visa": false,
+    "mastercard": false,
+    "amex": false
   },
   "footerLinks": [
     {
-      "subTitle": "Info",
+      "subTitle": "Portfolio",
       "links": [
         {
-          "text": "About Us",
+          "text": "About Me",
           "link": "/about"
         },
         {
-          "text": "Journal",
-          "link": "/blog"
+          "text": "Projects",
+          "link": "/shop"
         },
         {
-          "text": "Privacy Policy",
-          "link": "/support#policy"
+          "text": "Blog",
+          "link": "/blog"
         }
       ]
     },
     {
-      "subTitle": "Support",
+      "subTitle": "Contact",
       "links": [
         {
-          "text": "FAQ",
-          "link": "/faq"
+          "text": "LinkedIn",
+          "link": "https://www.linkedin.com/in/nadiasrana/"
         },
         {
-          "text": "Contact Us",
-          "link": "/support#contact"
+          "text": "GitHub",
+          "link": "https://github.com/nadiasrana"
         },
         {
-          "text": "Shipping & Returns",
-          "link": "/support#returns"
-        },
-        {
-          "text": "How to use this theme",
-          "link": "/how-to-use"
+          "text": "Email",
+          "link": "mailto:nadia@nadiasrana.com"
         }
       ]
     }
   ],
   "headerLinks": [
     {
-      "menuLabel": "Shop",
+      "menuLabel": "Projects",
       "menuLink": "/shop",
       "category": [
         {
-          "categoryLabel": "woman",
+          "categoryLabel": "Data Analytics",
           "submenu": [
             {
-              "menuLabel": "All clothing",
+              "menuLabel": "Power BI Dashboards",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "sweatshirts & hoodies",
+              "menuLabel": "SQL Projects",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "jackets",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "trousers",
+              "menuLabel": "Python Analysis",
               "menuLink": "/shop"
             }
           ]
         },
         {
-          "categoryLabel": "men",
+          "categoryLabel": "Business Intelligence",
           "submenu": [
             {
-              "menuLabel": "All clothing",
+              "menuLabel": "Tableau Visualizations",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "sweatshirts & hoodies",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "jackets",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "trousers",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "pants",
+              "menuLabel": "ETL Projects",
               "menuLink": "/shop"
             }
           ]
         },
         {
-          "categoryLabel": "accessories",
+          "categoryLabel": "Machine Learning",
           "submenu": [
             {
-              "menuLabel": "caps & scarves",
+              "menuLabel": "Predictive Models",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "bags",
+              "menuLabel": "AI Applications",
               "menuLink": "/shop"
             }
           ]
@@ -129,7 +102,7 @@
       ]
     },
     {
-      "menuLabel": "journal",
+      "menuLabel": "Blog",
       "menuLink": "/blog",
       "category": null
     },
@@ -141,36 +114,32 @@
   ],
   "filters": [
     {
-      "category": "colour",
+      "category": "Technology",
       "items": [
-        { "name": "Black", "value": true },
-        { "name": "Green", "value": false },
-        { "name": "Dark Blue", "value": false },
-        { "name": "Blue", "value": true },
-        { "name": "Grey", "value": false },
-        { "name": "Red", "value": false }
-      ]
-    },
-
-    {
-      "category": "size",
-      "items": [
-        { "name": "XXS", "value": false },
-        { "name": "XS", "value": false },
-        { "name": "S", "value": false },
-        { "name": "M", "value": false },
-        { "name": "L", "value": false },
-        { "name": "XL", "value": false },
-        { "name": "XXL", "value": false },
-        { "name": "Onesize", "value": false }
+        { "name": "Power BI", "value": true },
+        { "name": "Tableau", "value": false },
+        { "name": "Python", "value": false },
+        { "name": "SQL", "value": true },
+        { "name": "AWS", "value": false },
+        { "name": "Machine Learning", "value": false }
       ]
     },
     {
-      "category": "gender",
+      "category": "Industry",
       "items": [
-        { "name": "Male", "value": false },
-        { "name": "Female", "value": false },
-        { "name": "Unisex", "value": false }
+        { "name": "Retail", "value": false },
+        { "name": "Healthcare", "value": false },
+        { "name": "Finance", "value": false },
+        { "name": "E-commerce", "value": false },
+        { "name": "Technology", "value": false }
+      ]
+    },
+    {
+      "category": "Type",
+      "items": [
+        { "name": "Dashboard", "value": false },
+        { "name": "Analysis", "value": false },
+        { "name": "Automation", "value": false }
       ]
     }
   ]
