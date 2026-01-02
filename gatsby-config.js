@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Sydney Ecommerce Theme`,
-    siteUrl: `https://jamm.matter.design`,
+        title: `Nadia Rana | Data Analytics Portfolio`
+        siteUrl: `https://nadiasrana.netlify.app`
   },
   plugins: [],
 };
